@@ -133,12 +133,7 @@ p a:hover,li a:hover {
     margin-bottom: 15px;
 }
   
-#page {
-      text-align:left;
-      margin:0 auto;
-      min-height:100%;
-      width:960px;
-}
+
 
 #content {
     margin-left: 25px;
@@ -166,6 +161,8 @@ footer {
           display: block;
           left: 0;
           bottom: 0; 
+          grid-area: footer;
+          position: fixed;
 }
 
 .footercol-2-4 {
