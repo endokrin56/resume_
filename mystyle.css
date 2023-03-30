@@ -7,7 +7,7 @@ body {
     'menu   content sidebar'
     'footer footer footer';
   grid-template-columns: 15rem 1fr 15rem;
-  grid-template-rows: 5rem 1fr 3rem;
+  grid-template-rows: 3rem 1fr 3rem;
   
   @media (max-width: 600px) {
     grid-template-areas:
@@ -17,7 +17,7 @@ body {
       'sidebar'
       'footer';
     grid-template-columns: 1fr;
-    grid-template-rows: 5rem auto 1fr 3rem;
+    grid-template-rows: 3rem auto 1fr 3rem;
   }
 }
 
@@ -35,6 +35,7 @@ header {
 
 article {
   grid-area: content;
+  overflow: auto; 
 }
 
 aside {
@@ -59,7 +60,7 @@ footer {
       'sidebar'
       'footer';
     grid-template-columns: 1fr;
-    grid-template-rows: 5rem auto 1fr 3rem;
+    grid-template-rows: 3rem auto 1fr 3rem;
   }
 }
 
@@ -71,7 +72,6 @@ h3,h4,h2 {
 
 .container {
     width: 100%;
-    _max-width: 1024px;
     padding: 0 15px;
     margin: 0 auto;
     display: block;
@@ -87,7 +87,6 @@ h3,h4,h2 {
 }
 
 span { 
-
   font-weight: bold;
   margin-left: 1em;
 }
@@ -113,7 +112,7 @@ li a {
       display: table;
       color: white;
       text-align: center;
-      padding: 14px 16px;
+      padding: 1px 5px;
       text-decoration: none;
  
 }
@@ -130,7 +129,7 @@ p a:hover,li a:hover {
 
 .container div {
     float: left;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
   
 
@@ -157,12 +156,11 @@ p a:hover,li a:hover {
 
 footer {
           background-color: #333;
-          min-height: 50px;
+          min-height: 40px;
           display: block;
           left: 0;
           bottom: 0; 
           grid-area: footer;
-          position: fixed;
 }
 
 .footercol-2-4 {
