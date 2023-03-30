@@ -118,8 +118,12 @@ li a {
 }
 
 p a:hover,li a:hover {
-      background-color: #111;
-      color: #293f50;
+      background-color: #92824f;
+      color: #d2dae0;
+}
+
+p {
+  color: #9ea6ac;
 }
 
 .navigation{
@@ -142,14 +146,16 @@ p a:hover,li a:hover {
 
 #left {
     float: left;
-    width: 250px;
+    width: 30%;
+    height: 100%;
     background: #293f50;
     color: #888;
 }
 
 #right {
     float: right;
-    width: 250px;
+    width: 30%;
+    height: 100%;
     background: #293f50;
     color: #888;
 }
